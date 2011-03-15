@@ -1,0 +1,58 @@
+html {
+  /* Style properties */
+  color: black;
+  background-attachment: fixed;
+  background-color: #CDE8F6;
+  background-image: none; /* none | url("background.png")*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  /* Layout properties */
+  text-align: center;
+}
+
+body, #container, #header, p, #copyrights, acronym {
+  /* Reset of properties */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#container {
+  /* Layout properties */
+  height: 7.5em;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -3.75em;
+}
+
+#header {
+  /* Text properties */
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 3em;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+p {
+  /* Text properties */
+  font-family: Garamond, Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  
+  /* Layout properties */
+  margin-top: 1em;
+}
+
+#copyright {
+  color: #9DC8D6;
+  font-size: 0.7em;
+}
+acronym {
+  text-decoration: none;
+}
