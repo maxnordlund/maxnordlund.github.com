@@ -50,9 +50,12 @@ p {
 }
 
 #copyright {
+  /* Text properties */
   color: #9DC8D6;
   font-size: 0.7em;
 }
+
 acronym {
+  /* Text properties */
   text-decoration: none;
 }
